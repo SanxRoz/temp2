@@ -31,7 +31,7 @@ module.exports = {
       'lightblack': 'rgba(0, 0, 0, 0.55)',
       'bluish' : 'rgba(14, 13, 13, 0.75)',
       'testColor' : 'rgba(54, 54, 54, 0.75)',
-      'grey': '#909090',
+      'grey': '#252525',
       'bgblue' : '#02398A',
       'darkgrey' : '#747474',
       'faqblue' : '#0861FF',
