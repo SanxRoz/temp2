@@ -12,13 +12,25 @@ import {
   Aperture,
 } from "@phosphor-icons/react";
 
+interface Elements {
+  Lightning: Element;
+  Heart: Element;
+  Cube: Element;
+  Design: Element;
+  Playful: Element;
+  Big: Element;
+  Custom: Element;
+  User: Element;
+  [key: string]: Element; // This is the index signature
+}
+
 interface datatype {
   heading: string;
   icon: string;
   paragraph: string;
 }
 
-const iconComponents = {
+const iconComponents: Elements[] = {
   Lightning: <Lightning size={80} color="#f59e0b" weight="duotone" />,
   Heart: <Heart size={80} color="#e11d48" weight="duotone" />,
   Cube: <Cube size={80} color="#7c3aed" weight="duotone" />,
