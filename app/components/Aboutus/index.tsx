@@ -30,7 +30,7 @@ interface datatype {
   paragraph: string;
 }
 
-const iconComponents: Elements[] = {
+const iconComponents: Elements = {
   Lightning: <Lightning size={80} color="#f59e0b" weight="duotone" />,
   Heart: <Heart size={80} color="#e11d48" weight="duotone" />,
   Cube: <Cube size={80} color="#7c3aed" weight="duotone" />,
