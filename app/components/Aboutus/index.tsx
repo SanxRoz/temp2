@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import {
   Lightning,
   Heart,
@@ -13,14 +12,25 @@ import {
   Aperture,
 } from "@phosphor-icons/react";
 
+interface Elements {
+  Lightning: JSX.Element;
+  Heart: JSX.Element;
+  Cube: JSX.Element;
+  Design: JSX.Element;
+  Playful: JSX.Element;
+  Big: JSX.Element;
+  Custom: JSX.Element;
+  User: JSX.Element;
+  [key: string]: JSX.Element;
+}
+
 interface datatype {
   heading: string;
   icon: string;
   paragraph: string;
-  link: string;
 }
 
-const iconComponents = {
+const iconComponents: Elements = {
   Lightning: <Lightning size={80} color="#f59e0b" weight="duotone" />,
   Heart: <Heart size={80} color="#e11d48" weight="duotone" />,
   Cube: <Cube size={80} color="#7c3aed" weight="duotone" />,

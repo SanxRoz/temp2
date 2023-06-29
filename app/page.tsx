@@ -11,7 +11,6 @@ import FAQ from "./components/FAQ/index";
 import Testimonials from "./components/Testimonials/index";
 import Articles from "./components/Articles/index";
 import Joinus from "./components/Joinus/index";
-import Insta from "./components/Insta/index";
 
 export default function Home() {
   return (

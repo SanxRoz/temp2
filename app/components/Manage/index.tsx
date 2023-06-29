@@ -11,7 +11,7 @@ const names = [
     button: "Start My 15-day Trial",
     profiles: "5 Social Profiles",
     posts: "5 Scheduled Posts Per Profile",
-    templates: "400+ Templated",
+    templates: "400+ Templates",
     view: "Calendar View",
     support: "24/7 Support",
     category: "yearly",

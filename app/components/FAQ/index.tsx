@@ -14,7 +14,7 @@ const FAQ = () => {
         </h3>
       </div>
       <h2 className="text-4xl lg:text-6xl font-semibold text-center text-white">
-        Got Questions? <br /> We've Got Answers.
+        Got Questions? <br /> We&apos;ve Got Answers.
       </h2>
       <div className="w-full px-4 pt-16">
         <div className="mx-auto w-full max-w-5xl rounded-[35px] bg-[#252525] shadow-[inset_0_1px_0px_0px_rgba(255,255,255,0.1)] py-8 px-6 mb-5">
@@ -28,9 +28,9 @@ const FAQ = () => {
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base font-normal opacity-50">
-                  We're all about making your brand shine! We do graphic design,
-                  branding, digital marketing, web design, and more. Let's
-                  create something amazing together!
+                  We&apos;re all about making your brand shine! We do graphic
+                  design, branding, digital marketing, web design, and more.
+                  Let&apos;s create something amazing together!
                 </Disclosure.Panel>
               </>
             )}
@@ -48,10 +48,10 @@ const FAQ = () => {
                   />
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base font-normal opacity-50">
-                  We're all about teamwork here! We chat with you, brainstorm,
-                  make a plan, and then bring your vision to life. And don't
-                  worry, you're part of the team too - your feedback is always
-                  welcome.
+                  We&apos;re all about teamwork here! We chat with you,
+                  brainstorm, make a plan, and then bring your vision to life.
+                  And don&apos;t worry, you&apos;re part of the team too - your
+                  feedback is always welcome.
                 </Disclosure.Panel>
               </>
             )}
@@ -70,8 +70,8 @@ const FAQ = () => {
                 </Disclosure.Button>
                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-base font-normal opacity-50">
                   Starting with us is as easy as pie! Just drop us a line
-                  through our website, email, or give us a call. We can't wait
-                  to meet you and start our creative adventure together!
+                  through our website, email, or give us a call. We can&apos;t
+                  wait to meet you and start our creative adventure together!
                 </Disclosure.Panel>
               </>
             )}
