@@ -16,7 +16,6 @@ interface datatype {
   heading: string;
   icon: string;
   paragraph: string;
-  link: string;
 }
 
 const iconComponents = {
