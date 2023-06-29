@@ -13,15 +13,15 @@ import {
 } from "@phosphor-icons/react";
 
 interface Elements {
-  Lightning: Element;
-  Heart: Element;
-  Cube: Element;
-  Design: Element;
-  Playful: Element;
-  Big: Element;
-  Custom: Element;
-  User: Element;
-  [key: string]: Element; // This is the index signature
+  Lightning: JSX.Element;
+  Heart: JSX.Element;
+  Cube: JSX.Element;
+  Design: JSX.Element;
+  Playful: JSX.Element;
+  Big: JSX.Element;
+  Custom: JSX.Element;
+  User: JSX.Element;
+  [key: string]: JSX.Element;
 }
 
 interface datatype {
