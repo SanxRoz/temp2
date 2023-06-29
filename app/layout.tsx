@@ -15,6 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-scroll="0">
       <body className="bg-black text-[#ffffffe6]">
+        <div className="noise"></div>
         <Navbar />
         {children}
         <Footer />

@@ -91,7 +91,7 @@ export default class MultipleItems extends Component {
     };
 
     return (
-      <div className="bg-wework py-20">
+      <div className="bg-wework my-25 py-20">
         <div className="mx-auto max-w-2xl lg:max-w-7xl sm:py-4 lg:px-8 ">
           <div className="text-center">
             <h3 className="text-2xl sm:text-2xl font-bold my-2">
@@ -103,7 +103,7 @@ export default class MultipleItems extends Component {
         <Slider {...settings}>
           {postData.map((items, i) => (
             <div key={i}>
-              <div className="text-[#ffffffe6] bg-[#ffffff1a] w-fit grayscale m-3 px-5 py-2.5 my-10 text-center rounded-2xl">
+              <div className="text-[#ffffffe6] bg-[#ffffff1a] shadow-[inset_0_1px_0px_0px_rgba(255,255,255,0.1)] w-fit grayscale m-3 px-5 py-2.5 my-10 text-center rounded-2xl">
                 <div className="relative">
                   <Image
                     src={items.imgSrc}

@@ -6,6 +6,7 @@ import { Bars3Icon } from "@heroicons/react/24/outline";
 import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Contactusform from "./Contactus";
+import { Lightning } from "@phosphor-icons/react";
 
 interface NavigationItem {
   name: string;
@@ -34,7 +35,8 @@ const Navbar = () => {
             <div className="flex flex-1 items-center sm:justify-between">
               {/* LOGO */}
 
-              <div className="flex flex-shrink-0 items-center">
+              <div className="flex gap-1 flex-shrink-0 items-center">
+                <Lightning size={40} color="#fff" weight="duotone" />
                 <Link href="/" className="text-2xl sm:text-4xl font-semibold">
                   Bold
                 </Link>
@@ -51,7 +53,7 @@ const Navbar = () => {
                       className={classNames(
                         item.current
                           ? "bg-gray-900"
-                          : "navlinks hover:font-bold",
+                          : "navlinks hover:font-bold hover:tracking-[1px]",
                         "px-3 py-4 rounded-md text-lg font-normal"
                       )}
                       aria-current={item.href ? "page" : undefined}

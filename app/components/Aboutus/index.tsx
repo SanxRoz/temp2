@@ -85,14 +85,14 @@ const Aboutdata: datatype[] = [
 const Aboutus = () => {
   return (
     <div id="aboutus-section">
-      <div className="mx-auto max-w-7xl px-4 py-24 my-32 lg:px-10 rounded-3xl relative">
+      <div className="mx-auto max-w-7xl px-4 py-24 my-25 lg:px-10 rounded-3xl relative">
         <div className="flex justify-center">
           <h3 className="text-[#ffffffe6] bg-[#ffffff1a] border border-[#f2f2f25b] w-fit text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-widest">
             About us
           </h3>
         </div>
-        <h4 className="text-center text-4xl lg:text-65xl font-bold">
-          Know more about us.
+        <h4 className="text-center my-6 text-4xl lg:text-65xl font-bold">
+          Know how we build.
         </h4>
         <div className="flex flex-col items-center">
           <div className="grid gap-5 grid-cols-1 w-[70%] sm:grid-cols-3 lg:grid-cols-4 my-16">

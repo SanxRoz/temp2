@@ -1,7 +1,7 @@
 "use client";
 import Slider from "react-slick";
 import React, { Component } from "react";
-import { StarIcon } from "@heroicons/react/24/solid";
+import { Star } from "@phosphor-icons/react";
 import Image from "next/image";
 
 // CAROUSEL DATA
@@ -15,46 +15,25 @@ interface DataType {
 
 const postData: DataType[] = [
   {
-    name: "Robert Fox",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Sarah Thompson",
+    profession: "CEO of Thompson Tech Solutions",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    imgSrc: "/images/testimonial/user1.svg",
+      "Working with Bold was a game-changer for our brand. Their creativity and dedication brought our vision to life in ways we couldn't have imagined. We've seen a significant increase in our brand recognition and customer engagement since we started working with them.",
+    imgSrc: "/images/testimonial/user1.jpg",
   },
   {
-    name: "Leslie Alexander",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Michael Rodriguez",
+    profession: "Marketing Director at Green Earth Organics",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    imgSrc: "/images/testimonial/user2.svg",
+      "Bold's team is incredibly talented and easy to work with. They took the time to understand our needs and delivered a product that exceeded our expectations. Their innovative approach to design has truly set our business apart in the market.",
+    imgSrc: "/images/testimonial/user2.jpg",
   },
   {
-    name: "Cody Fisher",
-    profession: "CEO, Parkview Int.Ltd",
+    name: "Linda Chen",
+    profession: "Owner of Chen's Handmade Jewelry",
     comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    imgSrc: "/images/testimonial/user3.svg",
-  },
-  {
-    name: "Robert Fox",
-    profession: "CEO, Parkview Int.Ltd",
-    comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    imgSrc: "/images/testimonial/user1.svg",
-  },
-  {
-    name: "Leslie Alexander",
-    profession: "CEO, Parkview Int.Ltd",
-    comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    imgSrc: "/images/testimonial/user2.svg",
-  },
-  {
-    name: "Cody Fisher",
-    profession: "CEO, Parkview Int.Ltd",
-    comment:
-      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
-    imgSrc: "/images/testimonial/user3.svg",
+      "Bold is the epitome of creativity and professionalism. They transformed our outdated website into a modern, user-friendly platform that has significantly improved our online presence. I can't recommend them enough!",
+    imgSrc: "/images/testimonial/user3.jpg",
   },
 ];
 
@@ -119,15 +98,15 @@ export default class MultipleItems extends Component {
           <Slider {...settings}>
             {postData.map((items, i) => (
               <div key={i} className="relative">
-                <div className="bg-white test-sha m-3 p-10 my-20 rounded-3xl">
+                <div className="bg-[#252525] shadow-[inset_0_1px_0px_0px_rgba(255,255,255,0.1)] m-3 p-10 my-20 rounded-3xl">
                   <Image
                     src={items.imgSrc}
                     alt={items.imgSrc}
                     width={71}
                     height={71}
-                    className="inline-block m-auto absolute test-pos"
+                    className="inline-block rounded-full m-auto absolute test-pos"
                   />
-                  <h4 className="text-base font-medium text-testColor my-4">
+                  <h4 className="text-base font-medium my-4">
                     {items.comment}
                   </h4>
                   <hr style={{ color: "lightgrey" }} />
@@ -140,12 +119,12 @@ export default class MultipleItems extends Component {
                         {items.profession}
                       </h3>
                     </div>
-                    <div className="flex">
-                      <StarIcon width={20} className="star" />
-                      <StarIcon width={20} className="star" />
-                      <StarIcon width={20} className="star" />
-                      <StarIcon width={20} className="star" />
-                      <StarIcon width={20} className="star" />
+                    <div className="flex items-center">
+                      <Star width={20} color="#eab308" weight="duotone" />
+                      <Star width={20} color="#eab308" weight="duotone" />
+                      <Star width={20} color="#eab308" weight="duotone" />
+                      <Star width={20} color="#eab308" weight="duotone" />
+                      <Star width={20} color="#eab308" weight="duotone" />
                     </div>
                   </div>
                 </div>
