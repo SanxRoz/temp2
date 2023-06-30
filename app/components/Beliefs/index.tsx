@@ -4,7 +4,7 @@ const Beliefs = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 my-16 mx-5 gap-5">
         {/* COLUMN-1 */}
 
-        <div className="bg-[#252525]  py-12 px-10 sm:px-24 md:pb-70 rounded-3xl shadow-[inset_0_1px_0px_0px_rgba(255,255,255,0.1)]">
+        <div className="bg-[#252525] col-span-2 py-12 px-10 sm:px-24 md:pb-70 rounded-3xl shadow-[inset_0_1px_0px_0px_rgba(255,255,255,0.1)]">
           <h3 className="text-4xl sm:text-65xl font-bold text-[#4338ca] leading-snug mb-5 text-center sm:text-start">
             Innovation{" "}
             <span className="text-[#4338ca26]">is our driving force.</span>
@@ -17,7 +17,7 @@ const Beliefs = () => {
 
         {/* COLUMN-2 */}
 
-        <div className="bg-build bg-[#252525]  py-12 px-10 sm:px-24 md:pb-70 shadow-[inset_0_1px_0px_0px_rgba(255,255,255,0.1)] rounded-3xl">
+        <div className="bg-build bg-[#252525] col-span-2 py-12 px-10 sm:px-24 md:pb-70 shadow-[inset_0_1px_0px_0px_rgba(255,255,255,0.1)] rounded-3xl">
           <h3 className="text-4xl sm:text-65xl font-bold text-[#c2410c26] leading-snug mb-5 text-center sm:text-start">
             <span className="text-[#c2410c]">Collaboration </span> is our
             method.

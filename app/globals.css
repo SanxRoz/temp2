@@ -264,7 +264,6 @@ html {
   transition: 0.3s;
 }
 
-
 .dance-text {
   transform: rotate(-10.06deg);
   text-align: center;
@@ -274,7 +273,10 @@ html {
 
 @media only screen and (max-width: 466px) {
   .dance-text {
-    margin-left: -265px;
+    margin-left: -165px;
+  }
+  .bg-wework .slick-slide {
+    width: 200px !important;
   }
 }
 

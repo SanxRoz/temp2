@@ -20,7 +20,7 @@ const Drawer = ({ children, isOpen, setIsOpen }: DrawerProps) => {
     >
       <section
         className={
-          "w-340px max-w-lg left-0 backdrop-blur-3xl absolute bg-[##53535344] h-full shadow-xl delay-400 duration-150 ease-in-out transition-all transform " +
+          "w-340px max-w-lg left-0 backdrop-blur-xl border-r-2 border-[#ffffff33] border-dashed absolute bg-[##53535344] h-full shadow-xl delay-400 duration-150 ease-in-out transition-all transform " +
           (isOpen ? "translate-x-0" : "-translate-x-full")
         }
       >
