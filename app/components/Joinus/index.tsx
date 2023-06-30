@@ -12,11 +12,6 @@ const Join = () => {
             {" "}
             Create in a new level.
           </h2>
-          <p className="text-lightblack text-base font-normal">
-            Craven omni memoria patriae zombieland clairvius narcisse religionis
-            sunt diri undead <br /> historiarum. Golums, zombies unrelenting et
-            Raimi fascinati beheading.
-          </p>
         </div>
 
         <div className="mx-auto max-w-4xl pt-5">
